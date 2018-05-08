@@ -84,7 +84,7 @@ new VRVIU_BitPlayer({
         title:"陪我一起翻山越岭穿雪原：「Gopro极限集锦」",
         url:{"2K":"https://rs1-pv.vrviu.com/viu6ire0r/viu6ire0r.200000000013.0.mp4","3K":"","4K":""},
         type:"360",
-        container:"",
+        container:"container_demo",
         AppId :'vrviu_altsdk',
         AccessKeyId :'730c029686b86a332facca0bb1a9f53a',
         AccessKeySecret:"14d90ef1ee2be9f6c3469f46e2a3e566",
