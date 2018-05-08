@@ -14,15 +14,15 @@ V1.0
 -	支持视角位置和一键还原到主视角功能（点击右侧小圆圈）
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/11.png)
 
-* **播放器格式支持**：目前只能支持FLV格式视频或者HTTP-FLV格式视频流。
+2.  点击播放按钮播放视频，显示标题。
 
-* **协议支持**：支持HTTP-FLV协议，以及本地文件的播放。
-
-* **接口简单全面**：实现播放接口简单，可快速实现播放。
-
-* **兼容性**：目前主要支持PC上Chrome，Firefox，Microsoft Edge等主流浏览器，移动端只有Android Chrome支持。
-
-* **渲染类型**：支持普通2D视频点播直播。
+-	支持360度全景、180度3D等多种格式的视频文件
+-	支持视频播放/暂停
+-	支持手势拖拽和陀螺仪旋转操作 
+-	支持进度条的点击或拖拽
+-	支持视角位置和一键还原到主视角功能（点击右侧小圆圈）
+-	点击VR眼镜按钮可以切换到VR模式
+![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/12.png)
 
 
 
