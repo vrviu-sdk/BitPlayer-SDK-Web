@@ -12,6 +12,7 @@ V1.0
 -	支持360度全景封面图、2D封面图
 -	支持陀螺仪旋转和手势拖拽操作
 -	支持视角位置和一键还原到主视角功能（点击右侧小圆圈）
+
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/11.png)
 
 2.  点击播放按钮播放视频，显示标题。
@@ -22,12 +23,19 @@ V1.0
 -	支持进度条的点击或拖拽
 -	支持视角位置和一键还原到主视角功能（点击右侧小圆圈）
 -	点击VR眼镜按钮可以切换到VR模式
+
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/12.png)
 
+3.  进入VR模式，目前支持市场主流的大部分基于Google Cardboard谷歌VR纸盒的头戴设备。
 
+-	支持VR模式切换提示框
+-	支持返回全屏观看模式
+-	支持设置Cardboard版本和参数调整（已经优化参数，不建议修改）
+
+![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/13.png)
 
 ## Demo展示
-链接地址：https://rs1-pv.vrviu.com/h5/v1.3/index.html 
+链接地址：https://rs1-pv.vrviu.com/h5/v1.1/index.html 
 
 
 ## 导入SDK
@@ -70,12 +78,18 @@ V1.0
 //BitPlayer_Configure.min.js
 
 new VRVIU_BitPlayer({
-        url:"https://img.vrviu.com/static/media/VRVIU_BitPlayer_Demo.flv",
+        des:"将您带到极限的冒险世界",
+        duration:200,
+        src:"https://rs1-pi.vrviu.com/h5/thumb/video/viu6ire0r/viu6ire0r.200000000013.0.jpg",
+        title:"陪我一起翻山越岭穿雪原：「Gopro极限集锦」",
+        url:{"2K":"https://rs1-pv.vrviu.com/viu6ire0r/viu6ire0r.200000000013.0.mp4","3K":"","4K":""},
+        type:"360",
+        container:"",
         AppId :'vrviu_altsdk',
         AccessKeyId :'730c029686b86a332facca0bb1a9f53a',
-        BizId :'altsdk_web_demo',
         AccessKeySecret:"14d90ef1ee2be9f6c3469f46e2a3e566",
-        isLive:false
+        BizId :'altsdk_web_demo',
+        isList:false 
 })
 ```
 
@@ -85,9 +99,14 @@ new VRVIU_BitPlayer({
 ## 配置参数表
  |参数|说明|是否必填|类型|
  |:---|:---|:---|:---|
- |url|需要播放的视频或者直播流地址|必填|String|
- |isLive|播放的是否是直播|必填|Boolean|
- |AppId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请|必填|String|
+ |des|视频描述信息，超过30个字符将显示省略号，为空时将不显示标题。|非必填|String|
+ |duration|视频时长信息，只用于首页展示非视频实际时|非必填|Number|
+ |src|首页360度图片url地址，不填时将展示黑色的背景。|非必填|String|
+ |url|视频播放地址json对象，其每个字段代表一个清晰度的视频url地址，播放时将根据此字段生成清晰度选择列表。|必填|Object|
+ |type|视频视角分类，目前只支持360度普通视频、360度左右3D、180度的fisheye视频|必填|String|
+ |container|播放器对象被创建后被添加到的页面dom元素的id，一般都是直接添加到body上展示效果最佳。|非必填|String|
+ |isList|是否需要在播放器中使用默认列表页，如果填写为true，则必须填写vlist参数|非必填|Booleans|
+ |vlists|视频列表信息，数组的每个元素就是单个视频的信息|isList为true时必填|Array|
  |AppId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请|必填|String|
  |AccessKeyId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请|必填|String|
  |BizId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请|必填|String|
