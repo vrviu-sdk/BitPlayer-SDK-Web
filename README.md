@@ -105,7 +105,7 @@ new VRVIU_BitPlayer({
  |url|视频播放地址json对象，其每个字段代表一个清晰度的视频url地址，播放时将根据此字段生成清晰度选择列表。|必填|Object|
  |type|视频视角分类，目前只支持360度普通视频、360度左右3D、180度的fisheye视频。|必填|String|
  |container|播放器对象被创建后被添加到的页面dom元素的id，一般都是直接添加到body上展示效果最佳。|非必填|String|
- |isList|是否需要在播放器中使用默认列表页，如果填写为true，则必须填写vlist参数。|非必填|Booleans|
+ |isList|是否需要在播放器中使用默认列表页，如果填写为true，则必须填写vlist参数。|非必填|Boolean|
  |vlists|视频列表信息，数组的每个元素就是单个视频的信息。|isList为true时必填|Array|
  |AppId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请。|必填|String|
  |AccessKeyId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请。|必填|String|
