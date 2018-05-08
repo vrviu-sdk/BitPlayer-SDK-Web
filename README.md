@@ -12,7 +12,7 @@ V1.0
 -	支持360度全景封面图、2D封面图
 -	支持陀螺仪旋转和手势拖拽操作
 -	支持视角位置和一键还原到主视角功能（点击右侧小圆圈）
-
+![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/11.png)
 
 * **播放器格式支持**：目前只能支持FLV格式视频或者HTTP-FLV格式视频流。
 
