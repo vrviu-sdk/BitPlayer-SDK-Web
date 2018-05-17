@@ -15,7 +15,7 @@ V1.0
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/11.png)
 
 ### 2.  点击播放按钮播放视频。
-
+-	可以支持标准ERP编码方式，以及更为强大的FE编码的VR视频	
 -	支持360度全景、180度3D等多种格式的视频文件
 -	支持视频播放/暂停
 -	支持手势拖拽和陀螺仪旋转操作 
@@ -34,8 +34,9 @@ V1.0
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/13.png)
 
 ## Demo展示
-链接地址：https://rs1-pv.vrviu.com/h5/v1.2/index.html 
-
+标准EPR编码：https://rs1-pv.vrviu.com/h5/v1.2/index.html 
+FE编码：https://rs1-pv.vrviu.com/h5/v1.2/index.html?algorithm=1&format_degree=360&domain=https://rs1-pv.vrviu.com/1min/
+ 
 
 ## 导入SDK
 ### 1. 开发准备
