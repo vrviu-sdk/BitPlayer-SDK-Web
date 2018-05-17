@@ -1,13 +1,12 @@
-# VRVIU-BitPlayerSDK (Web)
+# BitPlayer-SDK-Web
 
 [![](https://img.shields.io/badge/Powered%20by-vrviu.com-brightgreen.svg)](https://vrviu.com)
 
 ## 版本
 V1.0
 
-## 功能说明
-一、效果预览以及操作说明
-1.	 首页可以展示视频标题、简介、时长、公司logo及简要介绍。支持360度全景封面图、2D封面图，支持陀螺仪旋转和手势拖拽操作，支持视角位置和一键还原到主视角功能（点击右侧小圆圈）。
+## 效果预览以及操作说明
+### 1.  首页可以展示视频标题、简介、时长、公司logo及简要介绍。支持360度全景封面图、2D封面图，支持陀螺仪旋转和手势拖拽操作，支持视角位置和一键还原到主视角功能（点击右侧小圆圈）。
 
 -	支持360度全景封面图、2D封面图
 -	支持陀螺仪旋转和手势拖拽操作
@@ -15,7 +14,7 @@ V1.0
 
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/11.png)
 
-2.  点击播放按钮播放视频，显示标题。
+### 2.  点击播放按钮播放视频，显示标题。
 
 -	支持360度全景、180度3D等多种格式的视频文件
 -	支持视频播放/暂停
@@ -26,7 +25,7 @@ V1.0
 
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/12.png)
 
-3.  进入VR模式，目前支持市场主流的大部分基于Google Cardboard谷歌VR纸盒的头戴设备。
+### 3.  进入VR模式，目前支持市场主流的大部分基于Google Cardboard谷歌VR纸盒的头戴设备。
 
 -	支持VR模式切换提示框
 -	支持返回全屏观看模式
