@@ -35,7 +35,9 @@ V1.0
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/13.png)
 
 ## Demo展示
+
 标准EPR编码：https://rs1-pv.vrviu.com/h5/v1.2/index.html 
+
 FE编码：https://rs1-pv.vrviu.com/h5/v1.2/index.html?algorithm=1&format_degree=360&domain=https://rs1-pv.vrviu.com/1min/
  
 
