@@ -94,7 +94,7 @@ new VRVIU_BitPlayer({
  |参数|说明|是否必填|类型|
  |:---|:---|:---|:---|
  |src|首页360度图片url地址，不填时将展示黑色的背景。|非必填|String|
- |url|代表视频url地址。|必填|Object|
+ |url|视频文件存放在服务器上的地址。|必填|Object|
  |type|视频视角分类，目前只支持360度视频、180度视频。|必填|String|
  |AppId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请。|必填|String|
  |AccessKeyId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请。|必填|String|
