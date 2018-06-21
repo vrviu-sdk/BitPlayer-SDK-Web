@@ -2,22 +2,38 @@
 
 [![](https://img.shields.io/badge/Powered%20by-vrviu.com-brightgreen.svg)](https://vrviu.com)
 
-## 版本
-V1.0
+## 版本历史
+ 20180517 V1.0 支持主流浏览器和微信内的H5播放，支持全屏模式和VR模式；  
+ 
+## 产品特点
+**1. VR视频格式**：支持 **180度3D/360度2D/360度3D** 视频点播/直播；
+
+**2. 音视频编码**：H.264, AAC  
+
+**3. 最大分辨率**：4K
+
+**4. 编码方式**：除了支持标准算法的编码方式，还支持VRVIU-FE算法，带宽节省高达50%
+
+**4. 播放模式**：全屏模式/VR模式；
+
+**5. 播放操作**：
+- 支持视频播放/暂停
+-	支持手势拖拽和陀螺仪旋转操作 
+-	支持进度条的点击或拖拽
+-	支持视角位置和一键还原到主视角功能（点击右侧小圆圈）
+
+**6. 播放平台**：支持微信/QQ/Chrome/Safari等平台播放
+
 
 ## 效果预览以及操作说明
-### 1.  首页可以展示公司logo及简要介绍。支持360度全景封面图、2D封面图，支持陀螺仪旋转和手势拖拽操作，支持视角位置和一键还原到主视角功能（点击右侧小圆圈）。
-
+**1.  视频封面，展示公司logo及视频简要介绍**
 -	支持360度全景封面图、2D封面图
 -	支持陀螺仪旋转和手势拖拽操作
 -	支持视角位置和一键还原到主视角功能（点击右侧小圆圈）
 
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/11.png)
 
-### 2.  点击播放按钮播放视频。
--	可以支持标准ERP编码方式，以及更为强大的FE编码的VR视频	
--	支持360度全景、180度3D等多种格式的视频类型
--	支持最大分辨率4
+**2.  点击播放按钮，全屏模式播放视频**
 -	支持视频播放/暂停
 -	支持手势拖拽和陀螺仪旋转操作 
 -	支持进度条的点击或拖拽
@@ -26,19 +42,19 @@ V1.0
 
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/12.png)
 
-### 3.  进入VR模式，目前支持市场主流的大部分基于Google Cardboard谷歌VR纸盒的头戴设备。
-
--	支持VR模式切换提示框
+**3.  进入VR模式播放**
+- -	支持VR模式切换提示框
 -	支持返回全屏观看模式
--	支持设置Cardboard版本和参数调整（已经优化参数，不建议修改）
+-	支持市场主流的大部分基于Google Cardboard谷歌VR纸盒的头戴设备
+- 支持设置Cardboard版本和参数调整（已经优化参数，不建议修改）
 
 ![](https://github.com/vrviu-sdk/VRVIU-BitPlayer-Demo-Web/blob/master/img/13.png)
 
 ## Demo展示
 
-标准EPR编码：https://rs1-pv.vrviu.com/h5/v1.2/index.html 
+**标准算法编码**：https://rs1-pv.vrviu.com/h5/v1.2/index.html 
 
-FE编码：https://rs1-pv.vrviu.com/h5/v1.2/index.html?algorithm=1&format_degree=360&domain=https://rs1-pv.vrviu.com/1min/
+**VRVIU-FE编码**：https://rs1-pv.vrviu.com/h5/v1.2/index.html?algorithm=1&format_degree=360&domain=https://rs1-pv.vrviu.com/1min/
  
 
 ## 导入SDK
@@ -105,7 +121,6 @@ new VRVIU_BitPlayer({
  |BizId|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请。|必填|String|
  |AccessKeySecret|分配给用户的ID，可通过 www.vrviu.com 填写表单或者联系客服申请。|必填|String
 
-## 商务合作
-电话：0755-86960615
-
-邮箱：business@vrviu.com
+## 联系我们
+ 如果有技术问题咨询，请加入官方QQ群：136562408  
+ 商务合作请电话：0755-86960615；邮箱：business@vrviu.com；或者至[官网](http://www.vrviu.com)"联系我们"。  
